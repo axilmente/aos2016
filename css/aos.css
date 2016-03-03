@@ -3,33 +3,58 @@
 	padding: 40px;
 }
 
+.intro .intro-body .intro-text {
+  margin-top: 2em;
+  font-size: 2.5em;
+}
+
 .venue-section {
-    width: 100%;
-    padding: 50px 0;
-    color: #fff;
-    background: url(../img/venue-bg.jpg) no-repeat center center scroll;
-    background-color: #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+  padding-top:0px;
+  padding-bottom:0px;
+}
+
+.event h1, .event h2 {
+  text-align: center;
+}
+
+h2 {
+  font-size: 5em;
+}
+
+h3 {
+  font-size: 3em;
+}
+
+p {
+  font-size: 1.7em;
+}
+
+h1, h2, h3, h4 {
+  color: #444;
 }
 
 .content-section {
 	padding-top:0px;
 	padding-bottom:0px;
+  background-color: whitesmoke;
+  color: black;
+
+  -webkit-box-shadow: 0px 20px 68px 17px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    0px 20px 68px 17px rgba(50, 50, 50, 0.75);
+box-shadow:         0px 20px 68px 17px rgba(50, 50, 50, 0.75);
 }
 
-.container { 
+.vh {
+  /*height: 100vh;*/
+}
+
+.container {
 	width: 100%;
-}
-
-.white {
-	background-color: white;
-	color: black;
 }
 
 section .container, section.container {
 	padding-top: 100px;
 	padding-bottom: 100px;
 }
+
+
