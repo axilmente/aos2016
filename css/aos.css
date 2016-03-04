@@ -7,21 +7,26 @@
   font-weight: bold;
 }
 
-.intro .intro-body .intro-text {
-  margin-top: 2em;
-  font-size: 2.5em;
-}
 
-h2 {
-  font-size: 5em;
-}
 
-h3 {
-  font-size: 3em;
-}
+@media(min-width:767px) {
 
-p {
-  font-size: 1.7em;
+  .intro .intro-body .intro-text {
+    margin-top: 2em;
+    font-size: 2.5em;
+  }
+
+  h2 {
+    font-size: 5em;
+  }
+
+  h3 {
+    font-size: 3em;
+  }
+
+  p {
+    font-size: 1.7em;
+  }
 }
 
 h1, h2, h3, h4 {
