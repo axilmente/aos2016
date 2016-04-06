@@ -64,3 +64,9 @@ section.container {
 .p2 {
   padding: 2em;
 }
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
