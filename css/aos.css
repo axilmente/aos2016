@@ -88,7 +88,7 @@ section.container {
   }
 }
 
-.schedule .row .col-md-10:hover {
+.schedule .row .col-md-9:hover {
   background-color: #71A114;
   color: white;
 }
