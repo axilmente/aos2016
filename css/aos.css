@@ -70,3 +70,25 @@ section.container {
     vertical-align: middle;
     float: none;
 }
+
+.schedule {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+.time {;
+  
+  font-size: 0.9em;
+  background-color: #ddd;
+}
+
+@media(min-width:992px) {
+  .time {
+    text-align: right;
+  }
+}
+
+.schedule .row .col-md-10:hover {
+  background-color: #71A114;
+  color: white;
+}
