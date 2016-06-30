@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <title>AOS2k16 - Guía gastro/nocturna</title>
+        <link rel="stylesheet" href="theme/default/style.css" type="text/css">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <script src="OpenLayers.js"></script>
+        <script type="text/javascript">
+            var map;
+        
+            function init(){
+                map = new OpenLayers.Map({
+                    div: 'map',
+		    projection:"EPSG:4326",
+                    controls: [
+                        new OpenLayers.Control.Attribution(),
+                        new OpenLayers.Control.TouchNavigation({
+                            dragPanOptions: {
+                                enableKinetic: true
+                            }
+                        }),
+                        new OpenLayers.Control.Zoom()
+                    ],
+                    layers: [
+                        new OpenLayers.Layer.OSM()
+                    ],
+                    center: new OpenLayers.LonLat(-951434.56785474, 5292376.7044901),
+                    zoom: 14
+                });
+                var wms = new OpenLayers.Layer.WMS(
+                    "OpenLayers WMS", "http://vmap0.tiles.osgeo.org/wms/vmap0",
+                    {layers: 'basic'}
+                );
+
+                var layer = new OpenLayers.Layer.Vector("POIs", {
+                    strategies: [new OpenLayers.Strategy.BBOX({resFactor: 1.1})],
+                    protocol: new OpenLayers.Protocol.HTTP({
+                        url: "pubs.txt",
+                        format: new OpenLayers.Format.Text()
+                    })
+                });
+
+                map.addLayers([wms, layer]);
+
+                // Interaction; not needed for initial display.
+                selectControl = new OpenLayers.Control.SelectFeature(layer);
+                map.addControl(selectControl);
+                selectControl.activate();
+                layer.events.on({
+                    'featureselected': onFeatureSelect,
+                    'featureunselected': onFeatureUnselect
+                });
+            }
+             
+
+            // Needed only for interaction, not for the display.
+            function onPopupClose(evt) {
+                // 'this' is the popup.
+                var feature = this.feature;
+                if (feature.layer) { // The feature is not destroyed
+                    selectControl.unselect(feature);
+                } else { // After "moveend" or "refresh" events on POIs layer all 
+                         //     features have been destroyed by the Strategy.BBOX
+                    this.destroy();
+                }
+            }
+            function onFeatureSelect(evt) {
+                feature = evt.feature;
+                popup = new OpenLayers.Popup.FramedCloud("featurePopup",
+                                         feature.geometry.getBounds().getCenterLonLat(),
+                                         new OpenLayers.Size(100,100),
+                                         "<h2>"+feature.attributes.title + "</h2>" +
+                                         feature.attributes.description,
+                                         null, true, onPopupClose);
+                feature.popup = popup;
+                popup.feature = feature;
+                map.addPopup(popup, true);
+            }
+            function onFeatureUnselect(evt) {
+                feature = evt.feature;
+                if (feature.popup) {
+                    popup.feature = null;
+                    map.removePopup(feature.popup);
+                    feature.popup.destroy();
+                    feature.popup = null;
+                }
+            }
+        </script>
+    </head>
+    <body onload="init()">
+        <h1>Guía gastro-nocturna de compostela</h1>
+	<div>
+            <img src="img/restaurant.png" width="30">Para papear</img><br/>
+            <img src="img/beer.png" width="30">Para beber</img>
+	</div>
+        <div id="map" class="bigmap"></div>
+    </body>
+</html>

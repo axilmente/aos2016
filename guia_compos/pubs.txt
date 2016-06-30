@@ -1,0 +1,42 @@
+point	title	description	icon
+42.8811231,-8.5433395	Casa das Crechas	Lo más parecido a un Irish Pub en Santiago.<br/>Conciertos de música folk nacional e internacional en acogedor pub<br/>con paredes de piedra, cervezas y cócteles.	img/beer.png
+42.8797084,-8.5408389	Momo	Emblemático local con terraza en un jardín, actuaciones en vivo,<br/>decoración temática de Momo y cócteles.	img/beer.png
+42.8818784,-8.5408608	La Flor	Buen sitio para desayunar, comer, cenar o tomar unas copas a buen precio.<br/>Muy bien ambiente y decoración agradable.<br/>Los sábados de noche suele haber mucha gente y muy complicado conseguir una mesa.	img/beer.png
+42.8826595,-8.5422661	Mamá Peixe	Taberna marinera. Cocina de madre atlántica, tradicional, emigrante, <br/>contemporanea, de huerta, gallega, de especies marinas en el corazón de la ciudad de Santiago.	img/restaurant.png
+42.8836726,-8.5421495	Garum	Gastronomía gallega con un toque de modernidad en dinámico bistró<br/>con tapas y platos anunciados en pizarra.	img/restaurant.png
+42.8837248,-8.5419635	La Bodeguilla de San Roque	Este local tradicional del tapeo compostelano, que fue variando su concepto,<br/>hasta convertirse en un afamado restaurante, tiene una excelente selección de vinos para acompañar las tapas que varían cada día:<br/>lentejas, fabadas, arroz... Su propuesta de raciones es muy amplia e interesante,<br/>desde los revueltos a la variada gama de quesos.<br/>Otro punto a tener en cuenta es que sus precios son muy económicos<br/>en relación a la calidad que ofrece. Muy recomendables sus tapas de empanadas,<br/>su tosta de salmón y sus revueltos de ajetes.	img/restaurant.png
+42.8807837,-8.5417409	Casa Pepe	Vinoteca con denominaciones de origen variadas y que se acompañan<br/>con tapas de ibéricos y quesos.	img/restaurant.png
+42.8812264,-8.5412899	O Curro da Parra	Cálido local con muros de piedra, originales sillas y terraza donde probar<br/>cocina creativa de mercado y tapas.	img/restaurant.png
+42.8805634,-8.5420154	O Cabalo Branco	Tasquita muy acogedora junto mercado donde tomar una fría cerveza<br/>y un delicioso vino y degustar unas tapas gratis con la bebida:<br/>combinado de tortilla, chacinas, queso riquísimo. Si el tiempo está bueno<br/>atienden en terraza. 2 alvariño +1 cerveza 7 eur	img/restaurant.png
+42.882372,-8.5395749	A Casa da Marquesa	Restaurante japonés con sushi bar, decorado con originales y modernos cuadros,<br/>con terraza junto a escalinata.	img/restaurant.png
+42.8816436,-8.5392596	O dezaseis	Pared de piedra, chimenea y vigas de madera en comedor con<br/>pulpo a la brasa y platos tradicionales gallegos.	img/restaurant.png
+42.8815183,-8.5389331	San Clodio	Si lo que busca es comer Churrasco, no lo dudes...<br/>El chuletón de kilo tampoco está mal ;-)	img/restaurant.png
+42.8814397,-8.5387621	A Moa	No suele fallar, tiene muy buen ambiente si quieres tomarte un vino, caña o vermouth,<br/>si además deseas comer o cenar todo rico, personal muy amable y si además el tiempo acompaña,<br/>terraza o mesa en el "huerto".	img/restaurant.png
+42.8778911,-8.5441454	La Tita	Excelente tortilla de patata. Por unos 2 euros te tomas una caña<br/>con un pincho de tortilla bastante grande. Tiene buena calidad<br/>en todas sus raciones y todas ellas exquisitas.	img/beer.png
+42.8776528,-8.5443593	Bendaña	Local perfecto para tomar las primeras copas	img/beer.png
+42.8773075,-8.5456893	O París	Primera parada si hacéis el París-Dakar ;-)	img/beer.png
+42.8780194,-8.545374	A Casa da Collona	Rincón de esencia puramente gallega, donde podrás deleitarte con especialidades<br/>como el Bacalao cocinado a baja temperatura con culis de frutos rojos, el Bonito de Burela marinado con soja,<br/>naranja y polvo de maicito, la Picaña de buey gallego y el Chuletón de vaca vieja a la parrilla.<br/>La Empanada de maíz con berberechos, el Pulpo con almejas y los guisos son otros manjares<br/>que regala su buen hacer en cocina.	img/restaurant.png
+42.8784918,-8.5450803	Bar Orense	Merece la pena ir porque las tazas de ribeiro blanco cuestan solo<br/>50 céntimos y aún puedes ver a la típica señora gallega que atiende<br/>el bar con su delantal.	img/beer.png
+42.8786122,-8.5449999	Orella	Este acogedor restaurante gallego ofrece tapas, mariscos y pescados,<br/>con oreja de cerdo como especialidad.	img/restaurant.png
+42.8788009,-8.5451078	Dakar	Última parada si hacéis el París-Dakar ;-)	img/beer.png
+42.8788058,-8.5447625	Trafalgar	Otro de los más míticos, imprescindible si decides tapear<br/>en Santiago una noche y de los más baratos. Tiene como especialidad<br/>los mejillones tigres. No tengas miedo que no pican demasiado, si vienes<br/>del Orella el pimentón pica mucho más.	img/beer.png
+42.8783111,-8.544836	l'incontro	Auténtica comida italiana hecha por italianos.	img/restaurant.png
+42.8775952,-8.545331	Bar Negreira "O Patata"	Esta taberna de corte tradicional, que permanece exactamente igual<br/>que hace décadas, es conocida en la ciudad por ofrecer con la consumición<br/>una tapa de patatas guisadas que justifica su sobrenombre.	img/beer.png
+42.8760923,-8.5463488	Pez Palo	Comida italiana y comida mexicana	img/restaurant.png
+42.8755881,-8.550197	La industrial	Un lugar para pasar un rato o tomarte una cerveza con amigos,<br/>agradable decoración y ambiente.	img/beer.png
+42.8744313,-8.550839	The Burguer lobby	Hamburguesas gourmet	img/restaurant.png
+42.8725118,-8.5508707	A Taverna do Ensanche	Para comer buena carne gallega, a muy buen precio.<br/>Comida hecha de forma tradicional y al momento con productos frescos.<br/>Ideal para tomar un aperitivo, ya que las tapas que incluyen<br/>con la consumición son generosas.	img/restaurant.png
+42.8723623,-8.5506645	Santiago Kyoto	Espacio moderno y cosmopolita dedicado a la cocina japonesa,<br/>con novedosa carta especializada en sushi.	img/restaurant.png
+42.8715232,-8.5501663	Mac Burguer	Hamburguesería y bocatería conocida entre los universitarios como "MacPollo"<br/>por su especialidad, el Mac de Pollo. Muy económica y abundante.	img/restaurant.png
+42.8689232,-8.5592155	Galipizza	¿Pizza de pulpo? ¿De raxo con grelos? ¿De churrasco??? Si queréis experimentar<br/>una fusión de la comida italiana con los platos más típicos gallegos,<br/>este es vuestro sitio!	img/restaurant.png
+42.8676644,-8.560483	La Bodeguilla de Santa Marta	Prima-hermana de la Bodeguilla de San Roque, se caracteriza por el<br/>mismo exquisito servicio, calidad de los platos y amplia carta de vinos.	img/restaurant.png
+42.8629092,-8.5562417	Fuentes	Si tenéis la ocasión de acercaros hasta aquí, no podéis desaprovechar<br/>la oportunidad de disfrutar de un buen pulpo y un buen churrasco<br/>de los tradicionales.	img/restaurant.png
+42.8755156,-8.5499138	O Rei do Bocadillo	Mítica bocatería de Santiago. Amplia variedad de bocadillos,<br/>pollos asados, sándwiches, hamburguesas, etc.	img/restaurant.png
+42.8783956,-8.5432524	O Reixa	Bar musical y bebercio variado.	img/beer.png
+42.8801503,-8.5425948	Borriquita de Belém	Conciertos de jazz y sesiones DJs en vivo en club de 1971<br/>con paredes de piedra, cócteles y vinos de barril.	img/beer.png
+42.880024,-8.5424118	Modus Vivendi	Café Pub con programación de conciertos, exposiciones, teatro, cuentacuentos.<br/>Música negra de los años 60 y 70, funky, soul, música brasileira.	img/beer.png
+42.8816142,-8.5433859	Bierzo Enxebre	Rústica casa de comidas con muros de piedra donde sirven<br/>cocina gallega y productos del Bierzo.	img/restaurant.png
+42.8819498,-8.5435072	Atlántico	Lugar de encuentro de artistas, cineastas y teatreros.<br/>Variada carta de gin tonics.	img/beer.png
+42.8779449,-8.5426112	Casa de Xantar Silveira	Cocina tradicional gallega elaborada con productos de primera calidad.	img/restaurant.png
+42.8822893,-8.5418307	O Xa Chegou	Tapas variadas. Recomendaciones: zorza neno labrego, raxo y chipirones.	img/restaurant.png
+42.8814814,-8.5407991	O Gamela	Bar con una carta fundamentada en raciones: setas, tortillas, revueltos<br/>y los tradicionales bocadillos. Plato recomendado: setas río bravo.	img/restaurant.png
